@@ -1,1 +1,1 @@
-проект из второго спринта
+git@github.com:Viktor1011/posmotri_v_okno.git
