@@ -60,7 +60,9 @@ ol {
     display: flex;
     flex-direction: column;
     height: 298px;
+    width: 413px;
     overflow: auto;
+    overflow-x: hidden
 }
 
 .content__details {
@@ -87,7 +89,7 @@ ol {
 .result__video {
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .content__list-item:not(:last-child) {
@@ -102,7 +104,7 @@ ol {
 .content__video-card-thumbnail {
     width: 194px;
     height: 103px;
-    object-fit: fill;
+    object-fit: cover;
     object-position: center;
 }
 
@@ -208,13 +210,13 @@ ol {
     font-size: 18px;
     font-weight: 700;
     line-height: 122%;
-    width: 391px;
+    width: 397px;
     height: 34px;
     position: relative;
     background-color: inherit;
     color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(255, 255, 255, 1);
-    margin: 0 1px 7px 5px;
+    margin: 9px 4px 6px 2px;
 }
 
 .search-form__textfield {
